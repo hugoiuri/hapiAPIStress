@@ -1,8 +1,8 @@
 {
   "name": "hapiAPIStress",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "API para teste de stress",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,12 @@
     "url": "hapiAPIStress"
   },
   "author": "Hugo Iuri @hugoiuri",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^2.7.1",
+    "good": "^6.1.2",
+    "good-console": "^5.0.0",
+    "hapi": "^8.4.0",
+    "joi": "^6.4.1"
+  }
 }
