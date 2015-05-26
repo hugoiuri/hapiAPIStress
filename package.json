@@ -13,6 +13,7 @@
   "author": "Hugo Iuri @hugoiuri",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^2.9.25",
     "boom": "^2.7.1",
     "good": "^6.1.2",
     "good-console": "^5.0.0",
